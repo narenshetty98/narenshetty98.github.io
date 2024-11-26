@@ -75,7 +75,7 @@ This bar chart includes a **filter widget** for usage descriptions. Users can se
 Below are links to access the dataset and the analysis notebook:
 
 <div class="left">
-{% include elements/button.html link="https://raw.githubusercontent.com/narenshetty98/narenshetty98.github.io/main/assets/building_inventory.csv" text="The Data" %}
+{% include elements/button.html link="https://github.com/narenshetty98/narenshetty98.github.io/main/assets/building_inventory.csv" text="The Data" %}
 </div>
 
 <div class="right">
