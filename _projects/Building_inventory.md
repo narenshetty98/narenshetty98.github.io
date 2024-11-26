@@ -25,7 +25,7 @@ The **Static Line Chart** illustrates the average number of floors acquired by y
 
 
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/line_chart.json" style="width: 100%"></vegachart>
+<vegachart schema-url="https://raw.githubusercontent.com/narenshetty98/narenshetty98.github.io/main/assets/json/line_chart.json" style="width: 100%"></vegachart>
 
 
 ---
