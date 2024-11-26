@@ -23,15 +23,18 @@ We used Python and Altair to create the visualizations, and they are rendered dy
 ## Static Line Chart
 The **Static Line Chart** illustrates the average number of floors acquired by year.
 
+```
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/line_chart.json" style="width: 100%; height: 500px;"></vegachart>
 
+```
 ---
 
 ## Interactive Bar Chart
 The **Interactive Bar Chart** shows the top 10 counties with the most buildings, categorized by their usage description.
-
+```
 <vegachart schema-url="{{ site.baseurl }}/assets/json/interactive_bar_chart.json" style="width: 100%; height: 500px;"></vegachart>
-
+```
 ---
 
 ## Search the Data & Methods
