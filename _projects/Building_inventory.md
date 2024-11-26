@@ -63,7 +63,7 @@ The visualization uses **bar encoding** for the count of buildings and a **categ
 The raw dataset was grouped by county and usage description to compute the total building count for each combination. Only the top 10 counties (by total building count) were retained, and the data was pivoted to prepare for a stacked representation. Filters were applied to remove null or insignificant categories.
 
 #### Changes from Homework #7
-This chart was enhanced with interactivity and a categorical filter for usage descriptions. Additionally, Altair was used to incorporate seamless interactivity compared and there were no similarities to homework 7.
+This chart was enhanced with interactivity and a categorical filter for usage descriptions. Additionally, Altair was used to incorporate seamless interactivity  and there were no similarities to homework 7.
 
 #### Interactivity
 This bar chart includes a **filter widget** for usage descriptions. Users can select a specific usage category (e.g., "Residential" or "Unusual") to dynamically filter the chart. This interactivity enhances the visualization by enabling a detailed exploration of specific subsets of the data, making it more engaging and informative for end users.
