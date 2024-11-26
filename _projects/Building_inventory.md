@@ -1,5 +1,5 @@
 ---
-name: Building Inventory Visualizations
+name: Building Inventory Visualizations - Homework 6
 tools: [Python, Altair, Vega-Lite]
 image: assets/pngs/Prewview.png
 description: This project includes static and interactive visualizations built using Altair and Vega-Lite for building inventory data analysis.
