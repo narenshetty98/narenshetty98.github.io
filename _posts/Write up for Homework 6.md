@@ -1,0 +1,7 @@
+---
+title: Write up - Building Inventory Visualisation
+tags: [History, Demand, Visualisation, Altair, Python]
+style: fill
+color: secondary
+description: This includes a write up for the visualisations developed for the buildings.csv dataset.
+---
