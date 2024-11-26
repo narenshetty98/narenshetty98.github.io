@@ -31,16 +31,16 @@ The **Static Line Chart** illustrates the average number of floors acquired by y
 ### Write-Up
 
 #### Description
-This line chart visualizes the trend of the average number of floors in buildings acquired over time. The x-axis represents the year of acquisition, while the y-axis displays the average number of floors in the buildings acquired in that year. The visualization provides insights into how building trends have evolved, highlighting significant peaks and declines in construction practices.
+This line chart visualizes the trend of the average number of floors in buildings acquired over time. The x-axis represents the year of acquisition, while the y-axis displays the average number of floors in the buildings acquired in that year. The visualization provides insights into how building trends have evolved, highlighting significant peaks and declines in construction practices. We can see that as the years evolve, the average number of floors have actually reduced, this might be because of efficient house planning or constructing houses with larger bases, this might also be due to the fact more people are opting to choose houses with lesser number of floors and the demand for houses with more floors gradually declined.
 
 #### Design Choices
-The chart uses **position encoding** for both the x-axis (temporal) and y-axis (quantitative). A line chart was chosen because it is ideal for showing changes over time. Each data point is marked to emphasize individual years, helping to identify specific trends. The absence of a color scheme in this static plot keeps the focus on the temporal progression of the data without distractions.
+The chart uses **position encoding** for both the x-axis  and y-axis. A line chart was chosen because it is ideal for showing changes over time. Each data point is marked to emphasize individual years, helping to identify specific trends. The absence of a color scheme in this static plot keeps the focus on the temporal progression of the data without distractions. We can clearly identify the decline in the number of floors as the years go by and the color scheme emphasises this aspect.
 
 #### Data Transformations
 The dataset was aggregated to calculate the **mean number of floors** for each acquisition year. Missing years or sparse data points were handled by filtering out null values and ensuring consistent x-axis labeling. Python’s `groupby` and `mean` methods in Pandas were used to compute the averages.
 
 #### Changes from Homework #7
-*"This static line chart closely mirrors a similar plot from Homework #7."* However, in Homework #7, the visualization was implemented using Matplotlib, whereas in this submission, Altair was used for its more declarative syntax. The data transformation steps were reused but streamlined to integrate with Altair's data model.
+There were no similarities to homework 7 - this submission, Altair was used for its more declarative syntax. The data transformation steps were used but streamlined to integrate with Altair's data model.
 
 
 
@@ -63,7 +63,7 @@ The visualization uses **bar encoding** for the count of buildings and a **categ
 The raw dataset was grouped by county and usage description to compute the total building count for each combination. Only the top 10 counties (by total building count) were retained, and the data was pivoted to prepare for a stacked representation. Filters were applied to remove null or insignificant categories.
 
 #### Changes from Homework #7
-*"The concept of a stacked bar chart was also used in Homework #7."* However, this chart was enhanced with interactivity and a categorical filter for usage descriptions. Additionally, Altair was used to incorporate seamless interactivity compared to the static plot in Homework #7.
+This chart was enhanced with interactivity and a categorical filter for usage descriptions. Additionally, Altair was used to incorporate seamless interactivity compared and there were no similarities to homework 7.
 
 #### Interactivity
 This bar chart includes a **filter widget** for usage descriptions. Users can select a specific usage category (e.g., "Residential" or "Unusual") to dynamically filter the chart. This interactivity enhances the visualization by enabling a detailed exploration of specific subsets of the data, making it more engaging and informative for end users.
