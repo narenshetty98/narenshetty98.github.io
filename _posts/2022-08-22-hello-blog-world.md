@@ -1,5 +1,5 @@
 ---
-title: The Hello World of Blogs
+title: The Hello World of Manju
 tags: [Technology, Blogging]
 style: fill
 color: secondary
