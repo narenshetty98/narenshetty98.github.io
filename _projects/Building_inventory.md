@@ -1,7 +1,7 @@
 ---
 name: Building Inventory Visualizations
 tools: [Python, Altair, Vega-Lite]
-image: assets/pngs/building_visualization_preview.png
+image: assets/pngs/Prewview.png
 description: This project includes static and interactive visualizations built using Altair and Vega-Lite for building inventory data analysis.
 custom_js:
   - vega.min
