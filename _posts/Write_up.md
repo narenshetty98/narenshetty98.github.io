@@ -1,7 +1,14 @@
+
 ---
-layout: post
 title: "Building Inventory Visualizations"
+tags: [Data Visualization, Altair, Python]
+style: fill
+color: primary
+description: A blog post showcasing static and interactive visualizations for building inventory data.
+date: 2024-11-06
 ---
+
+
 
 ## Visualization 1: Static Line Chart
 The first visualization is a **static line chart** that illustrates the **average number of floors in buildings acquired by year**.
